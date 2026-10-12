@@ -1,45 +1,27 @@
 # Indra Wijaya
 
-**Open-source engineer and automation builder** focused on reliable backend systems, AI-agent infrastructure, CI/CD, and security-minded software delivery.
+Backend engineer focused on developer tooling, automation and CI/CD. I build small, well-tested services and the tooling around them, and I contribute fixes to open-source projects where I can verify the change end to end. I use AI assistants as a tool in that work; everything I submit is reviewed by me and tested locally first.
 
-I build **CoreMesh**: practical tools that combine autonomous engineering with human approval, reproducible tests, independent review, and evidence-first releases.
+[coremesh.online](https://coremesh.online) · [instant.coremesh.online](https://instant.coremesh.online)
 
-[CoreMesh](https://coremesh.online) · [CoreMesh Instant](https://instant.coremesh.online) · [API Docs](https://instant.coremesh.online/docs)
+## Projects
 
-## What I am building
+**CoreMesh Instant** — fixed-price utility APIs (URL health, TLS and DNS checks, JSON repair, webhook verification, hashing) paid per call over HTTP 402 with USDC on Base. FastAPI, deployed behind nginx with a daily backup and health monitor.
+Repository: [indra112f/coremesh-instant](https://github.com/indra112f/coremesh-instant) · Live: [instant.coremesh.online](https://instant.coremesh.online) · [OpenAPI](https://instant.coremesh.online/openapi.json)
 
-### CoreMesh Instant
+**Task Forge** — an internal tool for tracking the open-source issues I work on and running each repository's own tests before anything is submitted.
 
-Fixed-price utility APIs for AI agents and developers, paid over HTTP 402 with USDC on Base. The public service includes URL health, TLS, DNS, JSON repair, webhook verification, and hashing tools.
+## Selected contributions
 
-- Repository: [indra112f/coremesh-instant](https://github.com/indra112f/coremesh-instant)
-- Live API: [instant.coremesh.online](https://instant.coremesh.online)
-- OpenAPI: [instant.coremesh.online/openapi.json](https://instant.coremesh.online/openapi.json)
+- **Perenna-Labs/perenna-contracts** (Rust, Soroban) — collapsed duplicated event-emit signatures behind one helper ([#140](https://github.com/Perenna-Labs/perenna-contracts/pull/140), merged); return `InvalidTimeRange` instead of a math overflow on bad stream bounds ([#157](https://github.com/Perenna-Labs/perenna-contracts/pull/157), merged); repaired integration regressions after a merge ([#158](https://github.com/Perenna-Labs/perenna-contracts/pull/158), merged)
+- **Presago-Labs/presago-contracts** (Rust) — archived stale `issues/issue-*.md` files ([#102](https://github.com/Presago-Labs/presago-contracts/pull/102), merged); retired `ISSUE_DRAFT.md` after the defects it tracked were fixed ([#103](https://github.com/Presago-Labs/presago-contracts/pull/103), merged)
+- **Presago-Labs/presago** (JavaScript) — removed an obsolete PowerShell maintenance script and its references ([#132](https://github.com/Presago-Labs/presago/pull/132), merged)
+- **BasedHardware/omi** (Python) — authentication on seven `/tools/*` routes of the WHOOP integration ([#21133](https://github.com/BasedHardware/omi/pull/21133), in review)
 
-### CoreMesh Task Forge
+## Tech
 
-A human-gated autonomous engineering workflow that discovers technical work, builds scoped patches, runs real tests and independent review, and keeps public GitHub actions behind explicit owner approval.
+Python, FastAPI, Rust (Soroban smart contracts), JavaScript, Shell, Docker, nginx.
 
-## Selected open-source work
+## Contact
 
-- **Presago** — merged repository-maintenance improvement: [Presago-Labs/presago#132](https://github.com/Presago-Labs/presago/pull/132)
-- **Presago Contracts** — merged historical-audit cleanup: [#102](https://github.com/Presago-Labs/presago-contracts/pull/102) and [#103](https://github.com/Presago-Labs/presago-contracts/pull/103)
-- **Perenna Contracts** — merged Soroban event API refactor: [Perenna-Labs/perenna-contracts#140](https://github.com/Perenna-Labs/perenna-contracts/pull/140)
-- **HumanAIOS** — resource-system prototype contribution [#789](https://github.com/humanaios-ui/operations/pull/789), incorporated into the maintainer's merged follow-up [#792](https://github.com/humanaios-ui/operations/pull/792)
-- **Omi** — security hardening for authenticated health-data tool routes: [BasedHardware/omi#21133](https://github.com/BasedHardware/omi/pull/21133)
-
-## Technical focus
-
-`Python` · `TypeScript` · `Rust` · `FastAPI` · `Docker` · `GitHub Actions` · `Soroban` · `Julia` · `Base / USDC`
-
-## How I work
-
-- Keep changes scoped and reversible.
-- Run repository-native tests before submission.
-- Record evidence, risks, and known limitations.
-- Use independent technical review for meaningful changes.
-- Require human approval before external or irreversible actions.
-
-## Collaboration
-
-I am open to serious open-source, backend infrastructure, developer tooling, and AI-agent collaborations. The best way to reach me is through GitHub.
+Open to backend, tooling and CI work, and to open-source collaboration. GitHub issues or discussions on my repositories are the quickest way to reach me.
