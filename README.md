@@ -6,6 +6,9 @@ Backend engineer focused on developer tooling, automation and CI/CD. I build sma
 
 ## Projects
 
+**claimcheck** — fact-checks AI-written drafts against their own sources with an open-weight model (Gemma 4). The evidence quote has to appear word for word in the fetched source, and numbers in the claim have to be in it, so the model can't invent its proof. Standard-library Python, MIT, offline tests.
+Repository: [indra112f/claimcheck](https://github.com/indra112f/claimcheck)
+
 **CoreMesh Instant** — fixed-price utility APIs (URL health, TLS and DNS checks, JSON repair, webhook verification, hashing) paid per call over HTTP 402 with USDC on Base. FastAPI, deployed behind nginx with a daily backup and health monitor.
 Repository: [indra112f/coremesh-instant](https://github.com/indra112f/coremesh-instant) · Live: [instant.coremesh.online](https://instant.coremesh.online) · [OpenAPI](https://instant.coremesh.online/openapi.json)
 
@@ -20,7 +23,7 @@ Repository: [indra112f/coremesh-instant](https://github.com/indra112f/coremesh-i
 
 ## Tech
 
-Python, FastAPI, Rust (Soroban smart contracts), JavaScript, Shell, Docker, nginx.
+Python, FastAPI, LLM tooling (open-weight models, OpenAI-compatible APIs), Rust (Soroban smart contracts), JavaScript, Shell, Docker, nginx.
 
 ## Contact
 
