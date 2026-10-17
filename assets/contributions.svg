@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="246" viewBox="0 0 840 246" role="img" aria-label="Open-source contributions: 6 merged pull requests across Perenna-Labs and Presago-Labs, 1 in review at BasedHardware/omi">
+<style>
+  .t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#EEF0E8} .d{fill:#8A909C} .l{fill:#C9F26B}
+  .s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;}
+  .ln{opacity:0;animation:in .35s ease-out forwards}
+  @keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .cur{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
+  .arm{transform-origin:57px 36px;animation:wave 2.4s ease-in-out infinite}
+  @keyframes wave{0%,60%,100%{transform:rotate(0)}70%{transform:rotate(-150deg)}80%{transform:rotate(-115deg)}90%{transform:rotate(-150deg)}}
+  .bob{animation:bob 3s ease-in-out infinite} @keyframes bob{50%{transform:translateY(-2px)}}
+  .eyes{transform-origin:32px 30px;animation:eyes 4s infinite} @keyframes eyes{0%,46%,50%,100%{transform:scaleY(1)}48%{transform:scaleY(.1)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important} .ln{opacity:1}}
+</style>
+<rect x=".5" y=".5" width="839" height="245" rx="14" fill="#0A0B0F" stroke="#262A33"/>
+<text class="t d" x="28" y="40" font-size="16">$ gh pr list --author indra112f --state all</text>
+<g class="ln" style="animation-delay:0.15s"><text class="t" x="28" y="84" font-size="15">Perenna-Labs/perenna-contracts</text><text class="t d" x="390" y="84" font-size="13">Rust · Soroban</text><text class="t d" x="540" y="84" font-size="13">#140 #157 #158</text><text class="t" x="812" y="84" font-size="13" text-anchor="end" style="fill:#C9F26B">3 merged</text></g>
+<g class="ln" style="animation-delay:0.40s"><text class="t" x="28" y="128" font-size="15">Presago-Labs/presago-contracts</text><text class="t d" x="390" y="128" font-size="13">Rust</text><text class="t d" x="540" y="128" font-size="13">#102 #103</text><text class="t" x="812" y="128" font-size="13" text-anchor="end" style="fill:#C9F26B">2 merged</text></g>
+<g class="ln" style="animation-delay:0.65s"><text class="t" x="28" y="172" font-size="15">Presago-Labs/presago</text><text class="t d" x="390" y="172" font-size="13">JavaScript</text><text class="t d" x="540" y="172" font-size="13">#132</text><text class="t" x="812" y="172" font-size="13" text-anchor="end" style="fill:#C9F26B">1 merged</text></g>
+<g class="ln" style="animation-delay:0.90s"><text class="t" x="28" y="216" font-size="15">BasedHardware/omi</text><text class="t d" x="390" y="216" font-size="13">Python</text><text class="t d" x="540" y="216" font-size="13">#21133</text><text class="t" x="812" y="216" font-size="13" text-anchor="end" style="fill:#8A909C">in review</text></g>
+</svg>

@@ -1,25 +1,31 @@
-# Indra Wijaya
+<a href="https://coremesh.online"><img src="assets/header.svg" width="100%" alt="Indra Wijaya: backend and developer-tooling engineer (CI/CD, automation), building CoreMesh, AI-drafted guides that are fact-checked before they ship."></a>
+
+<p>
+<a href="https://coremesh.online"><img src="assets/link-site.svg" width="23%" alt="CoreMesh: coremesh.online"></a>
+<a href="https://dev.to/coremesh_team"><img src="assets/link-dev.svg" width="23%" alt="DEV: @coremesh_team"></a>
+<a href="https://x.com/CoreMesh_Team"><img src="assets/link-x.svg" width="23%" alt="X: @CoreMesh_Team"></a>
+<a href="https://www.threads.com/@coremesh_official"><img src="assets/link-threads.svg" width="23%" alt="Threads: @coremesh_official"></a>
+</p>
 
 Backend engineer focused on developer tooling, automation and CI/CD. I build small, well-tested services and the tooling around them, and I contribute fixes to open-source projects where I can verify the change end to end. I use AI assistants as a tool in that work; everything I submit is reviewed by me and tested locally first.
 
-[coremesh.online](https://coremesh.online) · [instant.coremesh.online](https://instant.coremesh.online)
-
 ## Projects
 
-**claimcheck** — fact-checks AI-written drafts against their own sources with an open-weight model (Gemma 4). The evidence quote has to appear word for word in the fetched source, and numbers in the claim have to be in it, so the model can't invent its proof. Standard-library Python, MIT, offline tests.
-Repository: [indra112f/claimcheck](https://github.com/indra112f/claimcheck)
+<p>
+<a href="https://github.com/indra112f/claimcheck"><img src="assets/card-claimcheck.svg" width="49%" alt="claimcheck: fact-checks AI-written drafts against their own sources with Gemma; evidence quotes are verified word for word. Python, MIT."></a>
+<a href="https://github.com/indra112f/coremesh-instant"><img src="assets/card-instant.svg" width="49%" alt="CoreMesh Instant: utility APIs (URL health, TLS and DNS checks, JSON repair) paid per call over HTTP 402 with USDC on Base. FastAPI."></a>
+</p>
 
-**CoreMesh Instant** — fixed-price utility APIs (URL health, TLS and DNS checks, JSON repair, webhook verification, hashing) paid per call over HTTP 402 with USDC on Base. FastAPI, deployed behind nginx with a daily backup and health monitor.
-Repository: [indra112f/coremesh-instant](https://github.com/indra112f/coremesh-instant) · Live: [instant.coremesh.online](https://instant.coremesh.online) · [OpenAPI](https://instant.coremesh.online/openapi.json)
+**Task Forge**: an internal tool for tracking the open-source issues I work on and running each repository's own tests before anything is submitted.
 
-**Task Forge** — an internal tool for tracking the open-source issues I work on and running each repository's own tests before anything is submitted.
+## Open-source contributions
 
-## Selected contributions
+<img src="assets/contributions.svg" width="100%" alt="Open-source pull requests: Perenna-Labs/perenna-contracts #140, #157, #158 merged; Presago-Labs/presago-contracts #102, #103 merged; Presago-Labs/presago #132 merged; BasedHardware/omi #21133 in review.">
 
-- **Perenna-Labs/perenna-contracts** (Rust, Soroban) — collapsed duplicated event-emit signatures behind one helper ([#140](https://github.com/Perenna-Labs/perenna-contracts/pull/140), merged); return `InvalidTimeRange` instead of a math overflow on bad stream bounds ([#157](https://github.com/Perenna-Labs/perenna-contracts/pull/157), merged); repaired integration regressions after a merge ([#158](https://github.com/Perenna-Labs/perenna-contracts/pull/158), merged)
-- **Presago-Labs/presago-contracts** (Rust) — archived stale `issues/issue-*.md` files ([#102](https://github.com/Presago-Labs/presago-contracts/pull/102), merged); retired `ISSUE_DRAFT.md` after the defects it tracked were fixed ([#103](https://github.com/Presago-Labs/presago-contracts/pull/103), merged)
-- **Presago-Labs/presago** (JavaScript) — removed an obsolete PowerShell maintenance script and its references ([#132](https://github.com/Presago-Labs/presago/pull/132), merged)
-- **BasedHardware/omi** (Python) — authentication on seven `/tools/*` routes of the WHOOP integration ([#21133](https://github.com/BasedHardware/omi/pull/21133), in review)
+- **Perenna-Labs/perenna-contracts** (Rust, Soroban): collapsed duplicated event-emit signatures behind one helper ([#140](https://github.com/Perenna-Labs/perenna-contracts/pull/140)); return `InvalidTimeRange` instead of a math overflow on bad stream bounds ([#157](https://github.com/Perenna-Labs/perenna-contracts/pull/157)); repaired integration regressions after a merge ([#158](https://github.com/Perenna-Labs/perenna-contracts/pull/158))
+- **Presago-Labs/presago-contracts** (Rust): archived stale `issues/issue-*.md` files ([#102](https://github.com/Presago-Labs/presago-contracts/pull/102)); retired `ISSUE_DRAFT.md` after the defects it tracked were fixed ([#103](https://github.com/Presago-Labs/presago-contracts/pull/103))
+- **Presago-Labs/presago** (JavaScript): removed an obsolete PowerShell maintenance script and its references ([#132](https://github.com/Presago-Labs/presago/pull/132))
+- **BasedHardware/omi** (Python): authentication on seven `/tools/*` routes of the WHOOP integration ([#21133](https://github.com/BasedHardware/omi/pull/21133), in review)
 
 ## Tech
 
@@ -28,3 +34,5 @@ Python, FastAPI, LLM tooling (open-weight models, OpenAI-compatible APIs), Rust 
 ## Contact
 
 Open to backend, tooling and CI work, and to open-source collaboration. GitHub issues or discussions on my repositories are the quickest way to reach me.
+
+<sub>The cards above are SVGs generated by <code>assets/build.py</code>.</sub>

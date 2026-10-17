@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="196" height="56" viewBox="0 0 196 56" role="img" aria-label="X: @CoreMesh_Team">
+<style>
+  .t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#EEF0E8} .d{fill:#8A909C} .l{fill:#C9F26B}
+  .s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;}
+  .ln{opacity:0;animation:in .35s ease-out forwards}
+  @keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .cur{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
+  .arm{transform-origin:57px 36px;animation:wave 2.4s ease-in-out infinite}
+  @keyframes wave{0%,60%,100%{transform:rotate(0)}70%{transform:rotate(-150deg)}80%{transform:rotate(-115deg)}90%{transform:rotate(-150deg)}}
+  .bob{animation:bob 3s ease-in-out infinite} @keyframes bob{50%{transform:translateY(-2px)}}
+  .eyes{transform-origin:32px 30px;animation:eyes 4s infinite} @keyframes eyes{0%,46%,50%,100%{transform:scaleY(1)}48%{transform:scaleY(.1)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important} .ln{opacity:1}}
+</style>
+<rect x=".5" y=".5" width="195" height="55" rx="14" fill="#0A0B0F" stroke="#262A33"/>
+<text class="s" x="20" y="24" font-size="15" font-weight="700" fill="#C9F26B">X</text>
+<text class="t d" x="20" y="43" font-size="12">@CoreMesh_Team</text>
+<text class="t l" x="170" y="35" font-size="18">→</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="150" viewBox="0 0 410 150" role="img" aria-label="claimcheck. Fact-checks AI-written drafts against their own sources with Gemma. Quotes verified verbatim.">
+<style>
+  .t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#EEF0E8} .d{fill:#8A909C} .l{fill:#C9F26B}
+  .s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;}
+  .ln{opacity:0;animation:in .35s ease-out forwards}
+  @keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+  .cur{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
+  .arm{transform-origin:57px 36px;animation:wave 2.4s ease-in-out infinite}
+  @keyframes wave{0%,60%,100%{transform:rotate(0)}70%{transform:rotate(-150deg)}80%{transform:rotate(-115deg)}90%{transform:rotate(-150deg)}}
+  .bob{animation:bob 3s ease-in-out infinite} @keyframes bob{50%{transform:translateY(-2px)}}
+  .eyes{transform-origin:32px 30px;animation:eyes 4s infinite} @keyframes eyes{0%,46%,50%,100%{transform:scaleY(1)}48%{transform:scaleY(.1)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important} .ln{opacity:1}}
+</style>
+<rect x=".5" y=".5" width="409" height="149" rx="14" fill="#0A0B0F" stroke="#262A33"/>
+<text class="s" x="20" y="36" font-size="21" font-weight="800" fill="#EEF0E8">claimcheck</text><rect x="298" y="18" width="94" height="22" rx="11" fill="#C9F26B"/><text class="s" x="345" y="33" font-size="11.5" font-weight="700" text-anchor="middle" fill="#0A0B0F">NEW</text>
+<text class="s" x="20" y="68" font-size="13.5" fill="#8A909C">Fact-checks AI-written drafts against their</text>
+<text class="s" x="20" y="88" font-size="13.5" fill="#8A909C">own sources with Gemma. Quotes verified verbatim.</text>
+<rect x="20" y="112" width="53" height="22" rx="11" fill="#12141A" stroke="#262A33"/><text class="t d" x="47" y="127" font-size="11.5" text-anchor="middle">Python</text><rect x="81.4" y="112" width="61" height="22" rx="11" fill="#12141A" stroke="#262A33"/><text class="t d" x="112" y="127" font-size="11.5" text-anchor="middle">Gemma 4</text><rect x="150.20000000000002" y="112" width="31" height="22" rx="11" fill="#12141A" stroke="#262A33"/><text class="t d" x="166" y="127" font-size="11.5" text-anchor="middle">MIT</text>
+</svg>
